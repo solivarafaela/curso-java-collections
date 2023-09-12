@@ -46,9 +46,15 @@ public class CarrinhoDeCompras {
 
     private float somarValorCompra() {
         float valorTotal = 0.0F;
+        float valorItem = 0.0F;
 
         for (Item i : carrinhoDeCompras) {
-            valorTotal += i.getPreco();
+            if(i.getQuantidade() > 1) {
+                valorItem = i.getPreco() * i.getQuantidade();
+                valorTotal = valorTotal + valorItem;
+            } else {
+                valorTotal = valorTotal + i.getPreco();
+            }
         }
 
         return valorTotal;
