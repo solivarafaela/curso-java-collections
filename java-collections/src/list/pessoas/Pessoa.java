@@ -34,6 +34,6 @@ public class Pessoa implements Comparable<Pessoa>{
 
     @Override
     public int compareTo(Pessoa p) {
-        return 0;
+        return Integer.compare(idade, p.getIdade()); //Utilizando o wrapper Integer para comparar as idades
     }
 }
