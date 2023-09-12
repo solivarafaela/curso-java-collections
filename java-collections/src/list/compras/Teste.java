@@ -1,4 +1,4 @@
-package compras;
+package list.compras;
 
 public class Teste {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package tarefas;
+package list.tarefas;
 
 public class Tarefa {
 

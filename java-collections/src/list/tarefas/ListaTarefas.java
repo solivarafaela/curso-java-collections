@@ -1,4 +1,4 @@
-package tarefas;
+package list.tarefas;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -16,11 +16,11 @@ public class ListaTarefas {
     }
 
     public void removerTarefa(String descricao) {
-        List<Tarefa> tarefasARemover = new ArrayList<>(); //Lista de tarefas a excluir
+        List<Tarefa> tarefasARemover = new ArrayList<>(); //Lista de list.tarefas a excluir
 
         if(!listaTarefas.isEmpty()) {
             for(Tarefa t : listaTarefas) { //Percorre a lista procurando a tarefa
-                if(t.getDescricao().equalsIgnoreCase(descricao)) { //Comparando as tarefas
+                if(t.getDescricao().equalsIgnoreCase(descricao)) { //Comparando as list.tarefas
                     tarefasARemover.add(t); //Adicionando a tarefa encontrada a lista de remoção
                 }
             }
