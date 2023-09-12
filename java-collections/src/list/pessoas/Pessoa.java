@@ -1,6 +1,6 @@
 package list.pessoas;
 
-public class Pessoa {
+public class Pessoa implements Comparable<Pessoa>{
     private String nome;
     private int idade;
     private  double altura;
@@ -30,5 +30,10 @@ public class Pessoa {
                 ", idade=" + idade +
                 ", altura=" + altura +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Pessoa p) {
+        return 0;
     }
 }
