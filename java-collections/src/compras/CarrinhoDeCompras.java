@@ -55,7 +55,7 @@ public class CarrinhoDeCompras {
     }
 
     public void exibirResumo () {
-        System.out.println("Quantidade de itens: " + somarQuantidadeItens());
+        System.out.println("\nQuantidade de itens: " + somarQuantidadeItens());
         System.out.println("Valor total: " + somarValorCompra());
     }
 }
