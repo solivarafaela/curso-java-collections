@@ -12,7 +12,7 @@ public class CarrinhoDeCompras {
     }
 
     public void adicionarItem(String nome, float preco, int quantidade) {
-
+        carrinhoDeCompras.add(new Item(nome, preco, quantidade));
     }
 
     public void removerItem(String nome) {
@@ -38,7 +38,7 @@ public class CarrinhoDeCompras {
         int quantidadeItens = 0;
 
         for (Item i : carrinhoDeCompras) {
-            quantidadeItens = +i.getQuantidade();
+            quantidadeItens =+ i.getQuantidade();
         }
 
         return quantidadeItens;
@@ -48,7 +48,7 @@ public class CarrinhoDeCompras {
         float valorTotal = 0.0F;
 
         for (Item i : carrinhoDeCompras) {
-            valorTotal = +i.getPreco();
+            valorTotal =+ i.getPreco();
         }
 
         return valorTotal;
