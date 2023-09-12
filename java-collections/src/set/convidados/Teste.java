@@ -1,4 +1,4 @@
-package set;
+package set.convidados;
 
 public class Teste {
     public static void main(String[] args) {

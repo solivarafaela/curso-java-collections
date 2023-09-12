@@ -1,4 +1,4 @@
-package set;
+package set.convidados;
 
 import java.util.Objects;
 
