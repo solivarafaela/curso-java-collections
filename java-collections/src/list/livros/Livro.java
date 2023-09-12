@@ -1,22 +1,22 @@
 package list.livros;
 
 public class Livro {
-    private String nome;
+    private String titulo;
     private String autor;
     private int anoPublicacao;
 
-    public Livro(String nome, String autor, int anoPublicacao) {
-        this.nome = nome;
+    public Livro(String titulo, String autor, int anoPublicacao) {
+        this.titulo = titulo;
         this.autor = autor;
         this.anoPublicacao = anoPublicacao;
     }
 
-    public String getNome() {
-        return nome;
+    public String getTitulo() {
+        return titulo;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
     }
 
     public String getAutor() {
@@ -38,7 +38,7 @@ public class Livro {
     @Override
     public String toString() {
         return "Livro{" +
-                "nome='" + nome + '\'' +
+                "titulo='" + titulo + '\'' +
                 ", autor='" + autor + '\'' +
                 ", anoPublicacao=" + anoPublicacao +
                 '}';
