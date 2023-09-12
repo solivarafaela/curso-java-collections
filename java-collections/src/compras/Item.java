@@ -37,8 +37,8 @@ public class Item {
 
     @Override
     public String toString() {
-        return  "Nome: '" + nome +
-                ", Preco: " + preco +
-                ", Quantidade: " + quantidade;
+        return  "\n" + nome +
+                "\nPreco: " + preco +
+                "\nQuantidade: " + quantidade;
     }
 }
