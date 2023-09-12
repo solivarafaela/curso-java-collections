@@ -14,5 +14,7 @@ public class Teste {
         System.out.println(catalogoLivros.pesquisarTitulo("Livro 1"));
         System.out.println(catalogoLivros.pesquisarAutor("Autor 2"));
         System.out.println(catalogoLivros.pesquisarAnoLancamento(2020, 2023));
+
+        catalogoLivros.obterCatalogo();
     }
 }

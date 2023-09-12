@@ -15,6 +15,10 @@ public class CatalogoLivros {
         catalogoLivros.add(new Livro(titulo, autor, anoPublicacao));
     }
 
+    public void obterCatalogo() {
+        System.out.println(catalogoLivros);
+    }
+
     public Livro pesquisarTitulo(String titulo) {
         Livro livro = null;
 
